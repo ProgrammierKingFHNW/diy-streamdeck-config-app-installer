@@ -2,21 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Install StreamDeck Config</title>
+    <title>Install Streamdeck Config</title>
     <style>
-        body { font-family: sans-serif; text-align: center; padding: 50px; background: #f4f4f4; }
-        .card { background: white; padding: 30px; border-radius: 10px; display: inline-block; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-        .btn { background: #0078d4; color: white; padding: 15px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; }
+        body { font-family: 'Segoe UI', sans-serif; text-align: center; padding: 50px; background: #1a1a1a; color: white; }
+        .card { background: #2d2d2d; padding: 40px; border-radius: 12px; display: inline-block; box-shadow: 0 10px 20px rgba(0,0,0,0.3); max-width: 400px; }
+        .btn { background: #0078d4; color: white; padding: 15px 30px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block; margin-top: 20px; border: none; cursor: pointer; }
+        .btn:hover { background: #005a9e; }
+        .step { text-align: left; margin-top: 20px; font-size: 0.9em; color: #ccc; }
     </style>
 </head>
 <body>
     <div class="card">
-        <h1>StreamDeck Config App</h1>
-        <p>Ensure you have installed the <b>.cer certificate</b> before clicking install.</p>
-        <br><br>
-        <a href="ms-appinstaller:?source=https://[USER].github.io/diy-streamdeck-config-app-installer/diy-streamdeck.appinstaller" class="btn">
-            Install / Update App
+        <h1>Streamdeck Config</h1>
+        <p>Follow these steps to install the app:</p>
+        
+        <div class="step">
+            1. Download and install the <b>.cer certificate</b> (import to "Trusted People").<br><br>
+            2. Click the button below to download the installer file.
+        </div>
+
+        <a href="https://programmierkingfhnw.github.io/diy-streamdeck-config-app-installer/Streamdeck.appinstaller" download class="btn">
+            Download Installer
         </a>
+
+        <div class="step" style="margin-top: 30px; border-top: 1px solid #444; pt: 15px;">
+            3. <b>Double-click</b> the downloaded file on your PC to start the installation.
+        </div>
     </div>
 </body>
 </html>
