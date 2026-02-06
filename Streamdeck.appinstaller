@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AppInstaller
     xmlns="http://schemas.microsoft.com/appx/appinstaller/2021"
-    Version="1.0.6.0"
+    Version="1.0.13.0"
     Uri="https://programmierkingfhnw.github.io/diy-streamdeck-config-app-installer/Streamdeck.appinstaller">
 
   <MainPackage
       Name="Streamdeck"
       Publisher="CN=Diy Streamdeck"
-      Version="1.0.6.0"
+      Version="1.0.13.0"
       ProcessorArchitecture="x64"
-      Uri="https://programmierkingfhnw.github.io/diy-streamdeck-config-app-installer/Streamdeck_1.0.6.0_x64.msix" />
+      Uri="https://programmierkingfhnw.github.io/diy-streamdeck-config-app-installer/Streamdeck_1.0.13.0_x64.msix" />
 
   <UpdateSettings>
     <OnLaunch HoursBetweenUpdateChecks="0" />
